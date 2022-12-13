@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on add customer tab[[ChromeDriver: chrome on WINDOWS (c9281597c9eab8dd9a217160dbd2fe69)] -> xpath: //button[@ng-class ='btnClass1']]]]>
+    </line>
+    <line>
+      <![CDATA[Enter First Name[[ChromeDriver: chrome on WINDOWS (c9281597c9eab8dd9a217160dbd2fe69)] -> xpath: //input [@placeholder="First Name"]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Last Name[[ChromeDriver: chrome on WINDOWS (c9281597c9eab8dd9a217160dbd2fe69)] -> xpath: //input [@placeholder="Last Name"]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Postcode[[ChromeDriver: chrome on WINDOWS (c9281597c9eab8dd9a217160dbd2fe69)] -> xpath: //input [@placeholder="Post Code"]]]]>
+    </line>
+    <line>
+      <![CDATA[Click on add customer button[[ChromeDriver: chrome on WINDOWS (c9281597c9eab8dd9a217160dbd2fe69)] -> xpath: //button[@type='submit']]]]>
+    </line>
+  </reporter-output>
+  <suite name="Smoke   Suite" duration-ms="10912" started-at="2022-12-13T21:33:03 GMT" finished-at="2022-12-13T21:33:14 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="BankTest.bankManagerShouldOpenAccountSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@2781e022]" name="bankManagerShouldOpenAccountSuccessfully" class="com.bank.testsuite.BankTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="BankTest.bankManagerShouldOpenAccountSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@2781e022]" name="bankManagerShouldOpenAccountSuccessfully" class="com.bank.testsuite.BankTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Smoke Test" duration-ms="10912" started-at="2022-12-13T21:33:03 GMT" finished-at="2022-12-13T21:33:14 GMT">
+      <class name="com.bank.testsuite.BankTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@2781e022]" name="setUp" is-config="true" duration-ms="8878" started-at="2022-12-13T21:33:03 GMT" finished-at="2022-12-13T21:33:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.bank.testsuite.BankTest@2781e022]" name="inIt" is-config="true" duration-ms="19" started-at="2022-12-13T21:33:12 GMT" finished-at="2022-12-13T21:33:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="bankManagerShouldOpenAccountSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@2781e022]" name="bankManagerShouldOpenAccountSuccessfully" duration-ms="1084" started-at="2022-12-13T21:33:12 GMT" finished-at="2022-12-13T21:33:13 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on add customer tab[[ChromeDriver: chrome on WINDOWS (c9281597c9eab8dd9a217160dbd2fe69)] -> xpath: //button[@ng-class ='btnClass1']]]]>
+            </line>
+            <line>
+              <![CDATA[Enter First Name[[ChromeDriver: chrome on WINDOWS (c9281597c9eab8dd9a217160dbd2fe69)] -> xpath: //input [@placeholder="First Name"]]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Last Name[[ChromeDriver: chrome on WINDOWS (c9281597c9eab8dd9a217160dbd2fe69)] -> xpath: //input [@placeholder="Last Name"]]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Postcode[[ChromeDriver: chrome on WINDOWS (c9281597c9eab8dd9a217160dbd2fe69)] -> xpath: //input [@placeholder="Post Code"]]]]>
+            </line>
+            <line>
+              <![CDATA[Click on add customer button[[ChromeDriver: chrome on WINDOWS (c9281597c9eab8dd9a217160dbd2fe69)] -> xpath: //button[@type='submit']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bankManagerShouldOpenAccountSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@2781e022]" name="tearDown" is-config="true" duration-ms="628" started-at="2022-12-13T21:33:13 GMT" finished-at="2022-12-13T21:33:14 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.testsuite.BankTest -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Smoke   Suite -->
+</testng-results>

@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>TestNG:  Regression Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 13 21:28:07 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>33 seconds (33033 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.bank.testsuite.BankTest.bankManagerShouldAddCustomerSuccessfully()'><b>bankManagerShouldAddCustomerSuccessfully</b><br>Test class: com.bank.testsuite.BankTest<br/>
+<a href="#Output-254955665" onClick='toggleBox("Output-254955665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-254955665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-254955665">
+Click on add customer tab[[ChromeDriver: chrome on WINDOWS (bfe1fd65933f47ccf94e5df9e0c039c7)] -> xpath: //button[@ng-class ='btnClass1']]<br/>
+Enter First Name[[ChromeDriver: chrome on WINDOWS (bfe1fd65933f47ccf94e5df9e0c039c7)] -> xpath: //input [@placeholder="First Name"]]<br/>
+Enter Last Name[[ChromeDriver: chrome on WINDOWS (bfe1fd65933f47ccf94e5df9e0c039c7)] -> xpath: //input [@placeholder="Last Name"]]<br/>
+Enter Postcode[[ChromeDriver: chrome on WINDOWS (bfe1fd65933f47ccf94e5df9e0c039c7)] -> xpath: //input [@placeholder="Post Code"]]<br/>
+Click on add customer button[[ChromeDriver: chrome on WINDOWS (bfe1fd65933f47ccf94e5df9e0c039c7)] -> xpath: //button[@type='submit']]<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.bank.testsuite.BankTest@4493d195</td></tr>
+<tr>
+<td title='com.bank.testsuite.BankTest.customerShouldLoginAndLogOutSuccessfully()'><b>customerShouldLoginAndLogOutSuccessfully</b><br>Test class: com.bank.testsuite.BankTest<br/>
+<a href="#Output-1410186665" onClick='toggleBox("Output-1410186665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1410186665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1410186665">
+Search customer field[[ChromeDriver: chrome on WINDOWS (4feb5afe3f48a2f487864da4c7288f53)] -> xpath: //select[@id='userSelect']]<br/>
+Click On login Btn[[ChromeDriver: chrome on WINDOWS (4feb5afe3f48a2f487864da4c7288f53)] -> xpath: //button[contains(text(),'Login')]]<br/>
+Verify log out tab display[[ChromeDriver: chrome on WINDOWS (4feb5afe3f48a2f487864da4c7288f53)] -> xpath: //button[contains(text(),'Logout')]]<br/>
+Click on logout tab[[ChromeDriver: chrome on WINDOWS (4feb5afe3f48a2f487864da4c7288f53)] -> xpath: //button[@ng-show='logout']]<br/>
+Verify your name text displayed[[ChromeDriver: chrome on WINDOWS (4feb5afe3f48a2f487864da4c7288f53)] -> xpath: //label[contains(text(),'Your Name :')]]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.bank.testsuite.BankTest@4493d195</td></tr>
+<tr>
+<td title='com.bank.testsuite.BankTest.customerShouldDepositMoneySuccessfully()'><b>customerShouldDepositMoneySuccessfully</b><br>Test class: com.bank.testsuite.BankTest<br/>
+<a href="#Output-296204898" onClick='toggleBox("Output-296204898", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-296204898" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-296204898">
+Search customer field[[ChromeDriver: chrome on WINDOWS (4c6439b90006e9fea38c1b7e0f5d8623)] -> xpath: //select[@id='userSelect']]<br/>
+Click On login Btn[[ChromeDriver: chrome on WINDOWS (4c6439b90006e9fea38c1b7e0f5d8623)] -> xpath: //button[contains(text(),'Login')]]<br/>
+Click On Deposite Tab[[ChromeDriver: chrome on WINDOWS (4c6439b90006e9fea38c1b7e0f5d8623)] -> xpath: //div[@ng-hide='noAccount']//button[2]]<br/>
+Enter 100 In Amount Field[[ChromeDriver: chrome on WINDOWS (4c6439b90006e9fea38c1b7e0f5d8623)] -> xpath: //input[@placeholder='amount']]<br/>
+Click on deposite button[[ChromeDriver: chrome on WINDOWS (4c6439b90006e9fea38c1b7e0f5d8623)] -> xpath: //button[@type='submit']]<br/>
+Verify deposite successful text[[ChromeDriver: chrome on WINDOWS (4c6439b90006e9fea38c1b7e0f5d8623)] -> xpath: //span[contains(text(),'Deposit Successful')]]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.bank.testsuite.BankTest@4493d195</td></tr>
+<tr>
+<td title='com.bank.testsuite.BankTest.bankManagerShouldOpenAccountSuccessfully()'><b>bankManagerShouldOpenAccountSuccessfully</b><br>Test class: com.bank.testsuite.BankTest<br/>
+<a href="#Output-793319856" onClick='toggleBox("Output-793319856", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-793319856" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-793319856">
+Click on add customer tab[[ChromeDriver: chrome on WINDOWS (a9c125f1a768895eb144bcf5262331cf)] -> xpath: //button[@ng-class ='btnClass1']]<br/>
+Enter First Name[[ChromeDriver: chrome on WINDOWS (a9c125f1a768895eb144bcf5262331cf)] -> xpath: //input [@placeholder="First Name"]]<br/>
+Enter Last Name[[ChromeDriver: chrome on WINDOWS (a9c125f1a768895eb144bcf5262331cf)] -> xpath: //input [@placeholder="Last Name"]]<br/>
+Enter Postcode[[ChromeDriver: chrome on WINDOWS (a9c125f1a768895eb144bcf5262331cf)] -> xpath: //input [@placeholder="Post Code"]]<br/>
+Click on add customer button[[ChromeDriver: chrome on WINDOWS (a9c125f1a768895eb144bcf5262331cf)] -> xpath: //button[@type='submit']]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.bank.testsuite.BankTest@4493d195</td></tr>
+<tr>
+<td title='com.bank.testsuite.BankTest.customerShouldWithdrawMoneySuccessfully()'><b>customerShouldWithdrawMoneySuccessfully</b><br>Test class: com.bank.testsuite.BankTest<br/>
+<a href="#Output-2082232630" onClick='toggleBox("Output-2082232630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2082232630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2082232630">
+Search customer field[[ChromeDriver: chrome on WINDOWS (928033fef44ea7bc2c79f055c5c30db2)] -> xpath: //select[@id='userSelect']]<br/>
+Click On login Btn[[ChromeDriver: chrome on WINDOWS (928033fef44ea7bc2c79f055c5c30db2)] -> xpath: //button[contains(text(),'Login')]]<br/>
+click on withdraw tab[[ChromeDriver: chrome on WINDOWS (928033fef44ea7bc2c79f055c5c30db2)] -> xpath: //body/div[3]/div[1]/div[2]/div[1]/div[3]/button[3]]<br/>
+Enter amount in withdraw field[[ChromeDriver: chrome on WINDOWS (928033fef44ea7bc2c79f055c5c30db2)] -> tag name: input]<br/>
+verify Msg Transaction Successful[[ChromeDriver: chrome on WINDOWS (928033fef44ea7bc2c79f055c5c30db2)] -> xpath: //div[@class = 'ng-scope']/span[1]]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.bank.testsuite.BankTest@4493d195</td></tr>
+</table><p>
+</body>
+</html>
